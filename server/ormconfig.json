@@ -1,0 +1,10 @@
+{
+	"type": "postgres",
+	"host": "localhost",
+	"port": 5432,
+	"username": "postgres",
+	"password": "password",
+	"database": "reddit-clone",
+	"entities": ["dist/entities/*.js"],
+	"migrations": ["src/migrations/*.ts"]
+}
